@@ -2,10 +2,14 @@
 class HauntedHouses < ActiveRecord::Migration
   def change
     create_table :costumes do |t|
-      t.string :name
-      t.integer :price
-      t.integer :size
-      t.string :image
+      t.XXX :name
+      t.XXX :location
+      t.XXX :theme
+      t.XXX :price
+      t.XXX :familyFriendly
+      t.XXX :openDate
+      t.XXX :closingDate
+      t.XXX :description
     end
   end
 end
